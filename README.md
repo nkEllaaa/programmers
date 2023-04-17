@@ -21,6 +21,7 @@
     return n*12000 + k*2000 - parseInt(n/10)*2000
 }
 ```
+- [x] 함수보다는 메소드를 좀 더 활용하는 방법으로 풀어보기
 
 ## 2️⃣   짝수 홀수 개수구하기
 
@@ -36,4 +37,4 @@
     return numbers.reduce(((acc, cur) => acc + cur), 0) / numbers.length
 }
 ```
--> reduce 초기값 주의하기
+- [x] reduce 초기값 주의하기
