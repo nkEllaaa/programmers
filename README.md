@@ -80,3 +80,42 @@ function solution(n) {
 }
 ```
 - [x] 생각보다 삼항연산자가 쓰이는 알고리즘이 많다.
+<br>
+<br>
+
+## 5️⃣   중복된 숫자 갯수
+### 💡 문제 설명
+`정수가 담긴 배열 array와 정수 n이 매개변수로 주어질 때, array에 n이 몇 개 있는 지를 return 하도록 solution 함수를 완성해보세요.`
+
+문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/120583
+<br>
+<br>
+<strong>- 내가 푼 답</strong>
+```js
+function solution(array, n) {
+    let count = 0;
+    for (let i = 0; i < array.length; i++) {
+        if(array[i] === n)
+            count++;
+    }
+    return count;
+}
+```
+```js
+function solution(array, n) {
+  let count = 0;
+  array.forEach((item) => {
+    if (item === n) {
+      count++;
+    }
+  });
+  return count;
+}
+```
+<strong>- 참고할만한 답</strong>
+```js
+function solution(array, n) {
+      return array.filter(num => num === n).length;
+      }
+```
+- [x] 같은문제를 다양하게 풀어보자
