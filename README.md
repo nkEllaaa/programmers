@@ -29,12 +29,7 @@
 <br>
 <br>
 
-## 2️⃣   짝수 홀수 개수구하기
-<br>
-<br>
-
-
-## 3️⃣   배열의 평균값 구하기
+## 2️⃣   배열의 평균값 구하기
 ### 💡 문제 설명
 `정수 배열 numbers가 매개변수로 주어집니다. numbers의 원소의 평균값을 return하도록 solution 함수를 완성해주세요.`
 
@@ -52,7 +47,7 @@
 <br>
 <br>
 
-## 4️⃣    피자 나눠 먹기
+## 3️⃣    피자 나눠 먹기
 ### 💡 문제 설명
 `머쓱이네 피자가게는 피자를 일곱 조각으로 잘라 줍니다. 피자를 나눠먹을 사람의 수 n이 주어질 때, 모든 사람이 피자를 한 조각 이상 먹기 위해 필요한 피자의 수를 return 하는 solution 함수를 완성해보세요.`
 
@@ -83,7 +78,7 @@ function solution(n) {
 <br>
 <br>
 
-## 5️⃣   중복된 숫자 갯수
+## 4️⃣   중복된 숫자 갯수
 ### 💡 문제 설명
 `정수가 담긴 배열 array와 정수 n이 매개변수로 주어질 때, array에 n이 몇 개 있는 지를 return 하도록 solution 함수를 완성해보세요.`
 
@@ -121,7 +116,8 @@ function solution(array, n) {
 - [x] 같은문제를 다양하게 풀어보자
 <br>
 <br>
-## 6️⃣   짝수 홀수 개수
+
+## 5️⃣ 짝수 홀수 개수
 ### 💡 문제 설명
 `정수가 담긴 리스트 num_list가 주어질 때, num_list의 원소 중 짝수와 홀수의 개수를 담은 배열을 return 하도록 solution 함수를 완성해보세요.`
 
@@ -139,11 +135,30 @@ function solution(num_list) {
 // filter() 메서드는 주어진 함수의 테스트를 통과하는 모든 요소를 모아 새로운 배열로 반환한다.
 ```
 ```js
+function solution(num_list) {
+    let answer = [0,0];
 
+    for(let i of num_list) {
+        if(i % 2 === 1) answer[1] += 1;
+        else answer[0] += 1;
+    }
+
+    return answer
 }
 ```
 <strong>- 참고할만한 답</strong>
 ```js
+function solution(num_list) {
+    var answer = [0,0];
 
+    for(let a of num_list){
+        answer[a%2] += 1
+    }
+
+    return answer;
+}
 ```
 - [x] 같은문제를 다양하게 풀어보자
+
+
+## 6️⃣
