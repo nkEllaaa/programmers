@@ -152,13 +152,15 @@ function solution(num_list) {
     var answer = [0,0];
 
     for(let a of num_list){
-        answer[a%2] += 1
+        answer[a%2] += 1 //나머지로 인덱스를 구분할 수 있다는 새로운 접근을 알게되었다.
     }
 
     return answer;
 }
 ```
-- [x] 같은문제를 다양하게 풀어보자
+- [x] 다른사람의 답을 열심히 공부하자
+<br>
+<br>
 
 
 ## 6️⃣
