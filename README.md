@@ -138,7 +138,7 @@ function solution(num_list) {
 function solution(num_list) {
     let answer = [0,0];
 
-    for(let i of num_list) {
+    for(let i of num_list) { //for of 문에서 i는 value를 의미한다.
         if(i % 2 === 1) answer[1] += 1;
         else answer[0] += 1;
     }
