@@ -119,3 +119,31 @@ function solution(array, n) {
       }
 ```
 - [x] 같은문제를 다양하게 풀어보자
+<br>
+<br>
+## 6️⃣   짝수 홀수 개수
+### 💡 문제 설명
+`정수가 담긴 리스트 num_list가 주어질 때, num_list의 원소 중 짝수와 홀수의 개수를 담은 배열을 return 하도록 solution 함수를 완성해보세요.`
+
+문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/120824
+<br>
+<br>
+<strong>- 내가 푼 답</strong>
+```js
+function solution(num_list) {
+    let even = num_list.filter(num => num % 2 === 0).length
+    let odd = num_list.filter(num => num % 2 !== 0).length
+    
+    return [even, odd];
+}
+// filter() 메서드는 주어진 함수의 테스트를 통과하는 모든 요소를 모아 새로운 배열로 반환한다.
+```
+```js
+
+}
+```
+<strong>- 참고할만한 답</strong>
+```js
+
+```
+- [x] 같은문제를 다양하게 풀어보자
