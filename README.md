@@ -180,3 +180,24 @@ function solution(flo) {
     return parseInt(flo);
 }
 ```
+- [x] 정수부분을 가져올 때 의미적으로 정수로 변환하는 것이 맞는지 소수점을 버리는 것이 맞는지 잘 모르겠다. 중요하진 않을 듯하다.
+<br>
+<br>
+
+
+## 7️⃣ 문자 리스트를 문자열로 변환하기
+### 💡 문자들이 담겨있는 배열 arr가 주어집니다. arr의 원소들을 순서대로 이어 붙인 문자열을 return 하는 solution함수를 작성해 주세요.
+문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/181941
+<br>
+<br>
+<strong>- 내가 푼 답</strong>
+```js
+
+```
+
+```js
+
+```
+- [x] 다른사람의 답을 열심히 공부하자
+<br>
+<br>
