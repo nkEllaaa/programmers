@@ -192,12 +192,27 @@ function solution(flo) {
 <br>
 <strong>- 내가 푼 답</strong>
 ```js
-
+function solution(arr) {
+    return arr.join('');
+}
 ```
-
 ```js
-
+function solution(arr) {
+    let acc = '';
+    for(let i = 0; i< arr.length; i++) {
+        acc += arr[i];
+    }
+  return acc;
+}
 ```
-- [x] 다른사람의 답을 열심히 공부하자
+<strong>- 참고할만한 답</strong>
+```js
+function solution(arr) {
+    return arr.reduce((acc,b) => acc + b, '');
+}
+```
+- [x] reduce 연습하기 
+- [x] currentIndex : initialValue를 제공한 경우 0, 아니면 1부터 시작
+- [x] callback의 최초 호출에서 첫 번째 인수에 제공하는 값. 초기값을 제공하지 않으면 배열의 첫 번째 요소를 사용. `빈 배열에서 초기값 없이` reduce()를 호출하면 오류가 발생.
 <br>
 <br>
