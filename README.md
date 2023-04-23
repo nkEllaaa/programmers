@@ -216,3 +216,32 @@ function solution(arr) {
 - [x] callback의 최초 호출에서 첫 번째 인수에 제공하는 값. 초기값을 제공하지 않으면 배열의 첫 번째 요소를 사용. `빈 배열에서 초기값 없이` reduce()를 호출하면 오류가 발생.
 <br>
 <br>
+
+## 7️⃣ 문자 리스트를 문자열로 변환하기
+### 💡 문자들이 담겨있는 배열 arr가 주어집니다. arr의 원소들을 순서대로 이어 붙인 문자열을 return 하는 solution함수를 작성해 주세요.
+문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/181941
+<br>
+<br>
+<strong>- 내가 푼 답</strong>
+```js
+function solution(numbers) {
+    const answer = [];
+    for(let i = 0; i < numbers.length; i++){
+        answer[i] = numbers[i]*2;
+    }
+    return answer;
+}
+```
+<strong>- 참고할만한 답</strong>
+```js
+function solution(numbers) {
+    return numbers.reduce((acc, cur) => [...acc, cur * 2], []);
+}
+```
+```js
+const solution = (numbers) => numbers.map((number) => number * 2)
+```
+- [x] reduce 에서 spread를 써보는 새로운 경험
+- [x] map, set 익히기
+<br>
+<br>
