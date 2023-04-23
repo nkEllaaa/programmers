@@ -217,9 +217,9 @@ function solution(arr) {
 <br>
 <br>
 
-## 7️⃣ 문자 리스트를 문자열로 변환하기
-### 💡 문자들이 담겨있는 배열 arr가 주어집니다. arr의 원소들을 순서대로 이어 붙인 문자열을 return 하는 solution함수를 작성해 주세요.
-문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/181941
+## 7️⃣ 배열 두 배 만들기
+### 💡 정수 배열 numbers가 매개변수로 주어집니다. numbers의 각 원소에 두배한 원소를 가진 배열을 return하도록 solution 함수를 완성해주세요.
+문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/120809
 <br>
 <br>
 <strong>- 내가 푼 답</strong>
