@@ -262,3 +262,18 @@ function solution(numbers, num1, num2) {
 
 <br>
 <br>
+
+## 8️⃣ 
+### 💡 
+문제 링크 
+<br>
+<br>
+<strong>- 내가 푼 답</strong>
+```js
+
+
+```
+- [x] 
+- [x] 
+<br>
+<br>
