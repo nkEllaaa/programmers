@@ -245,3 +245,20 @@ const solution = (numbers) => numbers.map((number) => number * 2)
 - [x] map, set 익히기
 <br>
 <br>
+
+## 8️⃣ 배열 자르기
+### 💡 정수 배열 numbers와 정수 num1, num2가 매개변수로 주어질 때, numbers의 num1번 째 인덱스부터 num2번째 인덱스까지 자른 정수 배열을 return 하도록 solution 함수를 완성해보세요.
+문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/120833
+<br>
+<br>
+<strong>- 내가 푼 답</strong>
+```js
+function solution(numbers, num1, num2) {
+    return numbers.slice(num1, num2+1);
+}
+```
+- [x] slice는 첫번째 인자로 시작 인덱스, 두번째 인자로 종료 인덱스를 받음
+- [x] 종료 인덱스이기 때문에 원하는 인덱스까지 자르고 싶다면 +1
+
+<br>
+<br>
