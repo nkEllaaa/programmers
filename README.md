@@ -217,7 +217,7 @@ function solution(arr) {
 <br>
 <br>
 
-## 7️⃣ 배열 두 배 만들기
+##  8️⃣ 배열 두 배 만들기
 ### 💡 정수 배열 numbers가 매개변수로 주어집니다. numbers의 각 원소에 두배한 원소를 가진 배열을 return하도록 solution 함수를 완성해주세요.
 문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/120809
 <br>
@@ -246,7 +246,7 @@ const solution = (numbers) => numbers.map((number) => number * 2)
 <br>
 <br>
 
-## 8️⃣ 배열 자르기
+## 9️⃣ 배열 자르기
 ### 💡 정수 배열 numbers와 정수 num1, num2가 매개변수로 주어질 때, numbers의 num1번 째 인덱스부터 num2번째 인덱스까지 자른 정수 배열을 return 하도록 solution 함수를 완성해보세요.
 문제 링크 https://school.programmers.co.kr/learn/courses/30/lessons/120833
 <br>
