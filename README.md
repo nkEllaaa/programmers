@@ -271,6 +271,8 @@ function solution(numbers, num1, num2) {
 <strong>- 내가 푼 답</strong>
 ```js
 
+.
+
 
 ```
 - [x] 
